@@ -1,0 +1,52 @@
+nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+    justify-content: space-evenly;
+    color: #AD9728
+}
+
+nav h2 {
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+
+nav a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #AD9728;
+    font-family: 'Londrina Solid', cursive;
+}
+
+.mobile-id {
+    display: none;
+}
+
+
+@media only screen and (max-width: 700px) {
+    nav a {
+        display: none;
+        
+    }
+
+    nav {
+        border-bottom: .2rem solid #AD9728;
+    }
+
+    nav h2 {
+       display: none;
+    }
+
+    .mobile-id {
+        display: block;
+        grid-column-start: 5;
+        justify-items: end;
+        padding: 0;
+        margin: .2rem 0;
+        font-size: 2rem;
+        background-color: #612553;;
+        color: #AD9728;
+        border: 0;
+        cursor: pointer;
+    }
+}
