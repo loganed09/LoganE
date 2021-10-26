@@ -44,6 +44,8 @@ html, body {
   /* background-image: url("./images/cool-background.png");
   background-repeat: no-repeat;
   background-size: cover; */
-  background-color: #612553;
+  /* background-color: #5CDB95;  */
+  background-color: #2C3531;
   width: 100%;
+  color: white;
 }

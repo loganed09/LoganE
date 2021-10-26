@@ -3,18 +3,19 @@ nav {
     grid-template-columns: repeat(5, 1fr);
     place-items: center;
     justify-content: space-evenly;
-    color: #AD9728
+    /* color: #AD9728 */
 }
 
 nav h2 {
     font-family: 'ZCOOL KuaiLe', cursive;
+    color: #D9B08C;
 }
 
 
 nav a {
     text-decoration: none;
     cursor: pointer;
-    color: #AD9728;
+    color: #D1E8E2;
     font-family: 'Londrina Solid', cursive;
 }
 
@@ -30,7 +31,7 @@ nav a {
     }
 
     nav {
-        border-bottom: .2rem solid #AD9728;
+        border-bottom: .2rem solid #D9B08C;
     }
 
     nav h2 {
@@ -44,8 +45,9 @@ nav a {
         padding: 0;
         margin: .2rem 0;
         font-size: 2rem;
-        background-color: #612553;;
-        color: #AD9728;
+        /* background-color: #612553; */
+        background-color: #2C3531;
+        color: #D9B08C;
         border: 0;
         cursor: pointer;
     }
