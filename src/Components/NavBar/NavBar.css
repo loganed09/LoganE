@@ -19,7 +19,7 @@ nav a {
     font-family: 'Londrina Solid', cursive;
 }
 
-.mobile-id {
+.dropdown {
     display: none;
 }
 
@@ -37,16 +37,23 @@ nav a {
     nav h2 {
        display: none;
     }
+    
+    .dropdown {
+        display: block;
+        grid-column-start: 5;
+    }
+
+ 
 
     .mobile-id {
         display: block;
-        grid-column-start: 5;
+
         justify-items: end;
         padding: 0;
         margin: .2rem 0;
         font-size: 2rem;
         /* background-color: #612553; */
-        background-color: #2C3531;
+        background-color: transparent;
         color: #D9B08C;
         border: 0;
         cursor: pointer;
