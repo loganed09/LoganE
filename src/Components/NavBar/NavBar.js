@@ -41,20 +41,16 @@ export default function NavBar() {
 
   return (
     <nav className="navbar">
-        <a className="navItem" href="#about">About Me</a>
-        <a className="navItem" href="#projects">Projects</a>
-        <h2 className="navItem">Logan Edwards</h2>
-        <a className="navItem" href="#contact">Contact</a>
-        <a className="navItem" href="#">Something</a>
+        <a className="navItem nitem1" href="#projects">Projects</a>
+        <h2 className="navItem nitem2">Logan Edwards</h2>
+        <a className="navItem nitem3" href="#contact">Contact</a>
         <div className="dropdown">
           <button className="mobile-id" onClick={handleToggle}>
               LE
           </button>
           <ul className={`dropdown-content ${navbarOpen ? " showMenu" : ""}`}>
-            <a href="#about">About Me</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
-            <a href="#">Something</a>
           </ul>
         </div>
     </nav>
