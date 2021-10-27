@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/LoganE/static/css/main.b0105374.chunk.css",
+    "main.css": "/LoganE/static/css/main.b678451e.chunk.css",
     "main.js": "/LoganE/static/js/main.f1cafa28.chunk.js",
     "main.js.map": "/LoganE/static/js/main.f1cafa28.chunk.js.map",
     "runtime-main.js": "/LoganE/static/js/runtime-main.c0fec2d6.js",
@@ -10,7 +10,7 @@
     "static/js/3.4c73bfbd.chunk.js": "/LoganE/static/js/3.4c73bfbd.chunk.js",
     "static/js/3.4c73bfbd.chunk.js.map": "/LoganE/static/js/3.4c73bfbd.chunk.js.map",
     "index.html": "/LoganE/index.html",
-    "static/css/main.b0105374.chunk.css.map": "/LoganE/static/css/main.b0105374.chunk.css.map",
+    "static/css/main.b678451e.chunk.css.map": "/LoganE/static/css/main.b678451e.chunk.css.map",
     "static/js/2.08564112.chunk.js.LICENSE.txt": "/LoganE/static/js/2.08564112.chunk.js.LICENSE.txt",
     "static/media/Me.jpg": "/LoganE/static/media/Me.7ae85b52.jpg",
     "static/media/piano.jpg": "/LoganE/static/media/piano.41f572d0.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.c0fec2d6.js",
     "static/js/2.08564112.chunk.js",
-    "static/css/main.b0105374.chunk.css",
+    "static/css/main.b678451e.chunk.css",
     "static/js/main.f1cafa28.chunk.js"
   ]
 }
