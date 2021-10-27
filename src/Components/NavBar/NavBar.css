@@ -8,8 +8,8 @@ nav {
 }
 
 nav h2 {
-    font-family: 'ZCOOL KuaiLe', cursive;
-    color: #17282A;
+    font-family: 'Oswald', sans-serif;
+    color: #2E9CCA;
 }
 
 nav a {
@@ -25,10 +25,15 @@ nav a {
 
 .nitem2 {
     grid-column-start: 3;
+    letter-spacing: .12rem;
 }
 
 .nitem3 {
     grid-column-start: 4;
+}
+
+.initials {
+    display: none;
 }
 
 .dropdown {
@@ -48,7 +53,7 @@ nav a {
     }
 
     nav {
-        border-bottom: .2rem solid #Def2f1;
+        border-bottom: .13rem solid #2E9CCA;
     }
 
     nav h2 {
@@ -56,12 +61,30 @@ nav a {
     }
     
     .dropdown {
-        display: flex;
-        flex-direction: column;
-        grid-column-start: 5;
+        display: block;
     }
 
+    .initials {
+        grid-column-start: 1;
+        display: block;
+     
+        margin: 0;
+        margin-left: 0;
+    }
+    
+    .initials a {
+        font-family: 'Oswald', sans-serif;
+        color: #2E9CCA;
+        font-size: 1.8rem;
+    }
+
+    .initials.hideInitials {
+        display: none;
+    }
    
+    .dropdown {
+        grid-column-start: 5;
+    }
    
     .dropdown-content.showMenu {
         display: flex;
@@ -73,21 +96,25 @@ nav a {
 
     .dropdown-content {
         transition: all 1s ease-in;
+        
     }
 
     .dropdown-content a {
         padding: .2rem;
     }
+
     .mobile-id {
         display: block;
-        font-family: 'ZCOOL KuaiLe', cursive;
+        grid-column-start: 5;
+        /* font-family: 'ZCOOL KuaiLe', cursive; */
+        font-family: 'Londrina Solid', cursive;
         justify-items: end;
         padding: 0;
         margin: .2rem 0;
         font-size: 2rem;
         /* background-color: #612553; */
         background-color: transparent;
-        color: #17282A;
+        color: #2E9CCA;
         border: 0;
         cursor: pointer;
     }
