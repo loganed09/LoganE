@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/LoganE/static/css/main.516fefb2.chunk.css",
-    "main.js": "/LoganE/static/js/main.28ee84fa.chunk.js",
-    "main.js.map": "/LoganE/static/js/main.28ee84fa.chunk.js.map",
+    "main.css": "/LoganE/static/css/main.100ade57.chunk.css",
+    "main.js": "/LoganE/static/js/main.94717d92.chunk.js",
+    "main.js.map": "/LoganE/static/js/main.94717d92.chunk.js.map",
     "runtime-main.js": "/LoganE/static/js/runtime-main.87ab9b89.js",
     "runtime-main.js.map": "/LoganE/static/js/runtime-main.87ab9b89.js.map",
     "static/js/2.08564112.chunk.js": "/LoganE/static/js/2.08564112.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.17b22338.chunk.js": "/LoganE/static/js/3.17b22338.chunk.js",
     "static/js/3.17b22338.chunk.js.map": "/LoganE/static/js/3.17b22338.chunk.js.map",
     "index.html": "/LoganE/index.html",
-    "static/css/main.516fefb2.chunk.css.map": "/LoganE/static/css/main.516fefb2.chunk.css.map",
+    "static/css/main.100ade57.chunk.css.map": "/LoganE/static/css/main.100ade57.chunk.css.map",
     "static/js/2.08564112.chunk.js.LICENSE.txt": "/LoganE/static/js/2.08564112.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.87ab9b89.js",
     "static/js/2.08564112.chunk.js",
-    "static/css/main.516fefb2.chunk.css",
-    "static/js/main.28ee84fa.chunk.js"
+    "static/css/main.100ade57.chunk.css",
+    "static/js/main.94717d92.chunk.js"
   ]
 }
