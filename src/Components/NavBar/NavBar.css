@@ -4,6 +4,8 @@ nav {
     grid-template-columns: repeat(5, 1fr);
     place-items: center;
     justify-content: space-evenly;
+    z-index: 100;
+    position: sticky;
     /* color: #AD9728 */
 }
 
@@ -16,7 +18,7 @@ nav a {
     text-decoration: none;
     cursor: pointer;
     color: #Def2f1;
-    font-family: 'Londrina Solid', cursive;
+    font-family: 'Oswald', sans-serif;
 }
 
 .nitem1 {
@@ -75,7 +77,8 @@ nav a {
     .initials a {
         font-family: 'Oswald', sans-serif;
         color: #2E9CCA;
-        font-size: 1.8rem;
+        font-size: 1.7rem;
+        letter-spacing: .12rem;
     }
 
     .initials.hideInitials {
@@ -84,6 +87,10 @@ nav a {
    
     .dropdown {
         grid-column-start: 5;
+    }
+
+    .dropdown i {
+        font-size: 1.7rem;
     }
    
     .dropdown-content.showMenu {

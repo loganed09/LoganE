@@ -36,7 +36,6 @@ export default function NavBar() {
 
   const handleToggle = () => {
     setNavbarOpen(!navbarOpen);
-    console.log(navbarOpen);
   };
 
   return (
@@ -49,7 +48,7 @@ export default function NavBar() {
         </p>
         <div className="dropdown">
           <button className="mobile-id" onClick={handleToggle}>
-              <i class="fas fa-bars"></i>
+              <i className="fas fa-bars"></i>
           </button>
           <ul className={`dropdown-content ${navbarOpen ? " showMenu" : ""}`}>
             <a href="#projects">Projects</a>
