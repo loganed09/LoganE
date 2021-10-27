@@ -48,10 +48,15 @@ img {
         margin-top: 1rem;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(10, 5rem);
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+
     }
 
     .about-me h2 {
         font-size: 2rem;
+       padding-top: 2rem;
     }
 
     .pianoImg {
@@ -69,6 +74,8 @@ img {
    .about-me p {
        grid-column: 1 / span 5;
        grid-row-start: 8;
+       text-align: center;
+       padding: 0;
    }
 
     .meImg {
