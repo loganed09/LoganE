@@ -4,14 +4,14 @@ import About from './Components/About/About';
 
 function App() {
   return (
-    <div>
+    <body>
       <header>
         <NavBar />
       </header>
-      <body>
+      <div>
         <About />
-      </body>
-    </div>
+      </div>
+    </body>
   );
 }
 

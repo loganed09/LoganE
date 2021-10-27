@@ -20,6 +20,9 @@
     align-self: center;
 }
 
+.meImg {
+    width: 90%;
+}
 
 
 
@@ -34,7 +37,10 @@
     .about-me-pics {
         grid-column: 1 / span 3;
         grid-row: 2/span 5;
-        
+    }
+
+    .meImg {
+        border-radius: 30%;
     }
 
 }
