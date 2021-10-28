@@ -1,5 +1,5 @@
 .about-me {
-    background-color: #29648A;
+    /* background-color: #29648A; */
     height: auto;
     width: 100%;
     display: grid;
@@ -14,6 +14,7 @@
     grid-row: 1 / span 1;
     font-size: 3rem;
     align-self: center;
+    padding-top: 5rem;
 }
 
 .about-me p {
@@ -22,6 +23,7 @@
     align-self: center;
     font-size: 1.5rem;
     padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 .about-me-pics {
@@ -39,11 +41,54 @@ img {
 
 
 
+@media only screen and (max-width: 800px),
+            screen and (min-width: 400px) {
+    .about-me {
+        margin-top: 1rem;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(10, 5rem);
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+
+    }
+
+    .about-me h2 {
+        font-size: 2rem;
+       padding-top: 2rem;
+    }
+
+    .pianoImg {
+        display: none;
+    }
+
+    .about-me-pics {
+        grid-column: 1 / span 5;
+        grid-row: 2 /span 6;
+        margin-top: 1rem;
+    }
+
+   
+
+   .about-me p {
+       grid-column: 1 / span 5;
+       grid-row-start: 8;
+       text-align: center;
+       padding: 0;
+   }
+
+    .meImg {
+        border-radius: 30%;
+        width: 80%;
+        margin: auto 1rem;
+    }
+
+
+}
 
 
 
-
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 400px) {
     .about-me {
         margin-top: 1rem;
         grid-template-columns: repeat(5, 1fr);
