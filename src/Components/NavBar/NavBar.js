@@ -40,9 +40,11 @@ export default function NavBar() {
 
   return (
     <nav className="navbar">
-        <a className="navItem nitem1" href="#projects">Projects</a>
-        <h2 className="navItem nitem2">LOGAN EDWARDS</h2>
-        <a className="navItem nitem3" href="#contact">Contact</a>
+        <a className="navItem nitem1" href="https://www.linkedin.com/in/loganed09/">LinkedIn</a>
+        <a className="navItem nitem2" href="#projects">Projects</a>
+        <h2 className="navItem nitem3">LOGAN EDWARDS</h2>
+        <a className="navItem nitem4" href="https://github.com/loganed09">GitHub</a>
+        <a className="navItem nitem5" href="#contact">Contact</a>
         <p className={`initials ${navbarOpen ? " hideInitials" : ""}`}>
             <a href="#about">LE</a>
         </p>
@@ -53,6 +55,8 @@ export default function NavBar() {
           <ul className={`dropdown-content ${navbarOpen ? " showMenu" : ""}`}>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
+            <a href="https://github.com/loganed09">GitHub</a>
+            <a href="https://www.linkedin.com/in/loganed09/">LinkedIn</a>
           </ul>
         </div>
     </nav>

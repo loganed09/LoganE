@@ -22,15 +22,15 @@ nav a {
 }
 
 .nitem1 {
-    grid-column-start: 2;
+    grid-column-start: 1;
 }
 
 .nitem2 {
-    grid-column-start: 3;
+    grid-column-start: 2;
     letter-spacing: .12rem;
 }
 
-.nitem3 {
+.nitem4 {
     grid-column-start: 4;
 }
 
@@ -64,6 +64,7 @@ nav a {
     
     .dropdown {
         display: block;
+        grid-column-start: 5;
     }
 
     .initials {
@@ -86,7 +87,7 @@ nav a {
     }
    
     .dropdown {
-        grid-column-start: 5;
+        
     }
 
     .dropdown i {
