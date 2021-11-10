@@ -15,7 +15,7 @@ export default function About() {
         //         <img className="pianoImg" src={pianoImage.default} alt="piano" />
         //     </div>
         // </section>
-        <section className="about-me">
+        <section className="about-me" id="about">
             <div className="about-text">
                 <h2>My name is Logan Edwards.</h2>
                 <p>I play the piano. I love comic books. I am an aspiring Web Developer. Below you will find some of my projects.</p>

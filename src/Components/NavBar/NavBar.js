@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './NavBar.css';
+import {Link} from 'react-scroll';
 
 
 // export class NavBar extends React.Component {
@@ -40,19 +41,19 @@ export default function NavBar() {
 
   return (
     <nav className="navbar">
-        <a className="navItem nitem1" href="#projects">Projects</a>
+        <a className="navItem nitem1"><Link to="projects" spy={true} smooth={true}>Projects</Link></a>
         <a className="navItem nitem2" href="https://www.linkedin.com/in/loganed09/">LinkedIn</a>
-        <a className="navItem nitem3 myName" href="#about-me">LOGAN EDWARDS</a>
+        <a className="navItem nitem3 myName"><Link to="about" spy={true} smooth={true}>LOGAN EDWARDS</Link></a>
         <a className="navItem nitem4" href="https://github.com/loganed09">GitHub</a>
-        <a className="navItem nitem5" href="#contact">Contact</a>
+        <a className="navItem nitem5" ><Link to="contact" spy={true} smooth={true}>Contact</Link></a>
         <p className={`initials ${navbarOpen ? " hideInitials" : ""}`}>
-            <a href="#about-me">LE</a>
+            <a><Link to="about" spy={true} smooth={true}>LE</Link></a>
         </p>
         <div className="dropdown">
           <button className="mobile-id" onClick={handleToggle}>
               <i className="fas fa-bars"></i>
           </button>
-          <ul className={`dropdown-content ${navbarOpen ? " showMenu" : ""}`}>
+          <ul className={`dropdown-content ${navbarOpen ? " showMenu" : ""}`} onClick={handleToggle}>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
             <a href="https://github.com/loganed09">GitHub</a>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Contact.css';
+
 import { Mailto } from './Mailto';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -15,9 +16,10 @@ import {
 
 
 export default function Contact() {
+
+
     return (
-        <section className="contact">
-            <h2>Contact</h2>
+        <section className="contact" id="contact">
             <a href="https://github.com/loganed09" 
                className="github social">
                <FontAwesomeIcon icon={faGithub} size="2x" />
