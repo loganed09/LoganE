@@ -51,7 +51,7 @@ export default function NavBar() {
         </p>
         <div className="dropdown">
           <button className="mobile-id" onClick={handleToggle}>
-              <i className="fas fa-bars"></i>
+              <i className={`${navbarOpen ? "cross fas fa-times" : "hamburger fas fa-bars"}`}></i>
           </button>
           <ul className={`dropdown-content ${navbarOpen ? " showMenu" : ""}`} onClick={handleToggle}>
             <a href="#projects">Projects</a>

@@ -72,14 +72,14 @@ nav a {
     }
     
     .dropdown {
-        display: block;
+        display: flex;
+        flex-direction: column;
         grid-column-start: 5;
     }
 
     .initials {
         grid-column-start: 1;
         display: block;
-     
         margin: 0;
         margin-left: 0;
     }
@@ -95,20 +95,26 @@ nav a {
         display: none;
     }
    
-    .dropdown {
-        
-    }
 
     .dropdown i {
         font-size: 1.7rem;
     }
-   
+
+    i.cross {
+        font-size: 2.2rem;
+    }
+
+    button {
+    }
+
+
     .dropdown-content.showMenu {
         display: flex;
         flex-direction: column;
         text-align: center;
         padding: 0;
-        margin: .6rem 0;
+        margin: 0;
+        justify-content:space-evenly
     }
 
     .dropdown-content {
