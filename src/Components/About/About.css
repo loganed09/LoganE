@@ -1,25 +1,31 @@
 .about-me {
-    /* background-color: #2b6777; */
+    background-color: #2b6777;
     height: auto;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(8, 5rem);
     padding-bottom: 2rem;
     position: relative;
-    top: 3rem;
+    top: 3.8rem;
     font-family: 'Oswald', sans-serif;
     color: white;
 }
 
-.about-me h2 {
+/* .about-me h2 {
     grid-column: 1 / span 6;
     grid-row: 1 / span 1;
     font-size: 3rem;
     align-self: center;
     padding-top: 5rem;
-}
+} */
 
+.about-text {
+    grid-column: 3 /span 2;
+    grid-row: 1 / span 8;
+    align-self: center;
+    justify-self: center;
+}
 .about-me p {
     grid-column: 4 / span 2;
     grid-row: 4 / span 2;
@@ -30,21 +36,18 @@
 }
 
 .about-me-pics {
-    grid-column:  1 / span 3;
+    grid-column:  1 / span 2;
     /* background-color: rgba(100,100,100,.8); */
-    grid-row: 3 / span 5;
+    grid-row: 1 / span 8;
     display: flex;
     justify-content: space-evenly;
 }
 
-img {
-    border-radius: 10%;
-}
 
 
 
 
-@media only screen and (max-width: 800px),
+/* @media only screen and (max-width: 800px),
             screen and (min-width: 400px) {
     .about-me {
         margin-top: 1rem;
@@ -87,12 +90,12 @@ img {
     }
 
 
-}
+} */
 
 
 
 @media only screen and (max-width: 400px) {
-    .about-me {
+    /* .about-me {
         margin-top: 1rem;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(10, 5rem);
@@ -115,9 +118,40 @@ img {
         grid-column: 1 / span 5;
         grid-row: 2 /span 6;
         margin-top: 1rem;
+    } */
+
+    .about-me {
+        padding-top: 1rem;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(15, 1fr);
+        height: 35rem;
+        padding-bottom: 0;
     }
 
-   
+    .about-text {
+        grid-column: 1 / span 5;
+        grid-row: 1 / span 6;
+        padding-bottom: 3rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    .about-me-pics {
+        grid-column: 1 / span 5;
+        grid-row: 6 / 16;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-text p {
+       font-size: 1rem;
+    }
+
+    .pianoImg {
+        display: none;
+    }
 
    .about-me p {
        grid-column: 1 / span 5;
@@ -127,8 +161,8 @@ img {
    }
 
     .meImg {
-        border-radius: 30%;
-        width: 95%;
+        
+        width: 100%;
         margin: auto 1rem;
     }
 
