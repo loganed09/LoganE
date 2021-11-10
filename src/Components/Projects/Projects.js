@@ -57,7 +57,7 @@ export default function Projects() {
                     <h3>React Planner</h3>
                     <a href="https://loganed09.github.io/planner/"><img src={plannerPic.default} alt="" /></a>
                     <div className="project-text">
-                        <p>Planner made with React.</p>
+                        <p>Simple planner made with React.</p>
                         <a href="https://github.com/loganed09/planner">Code</a>
                     </div>
                 </div>

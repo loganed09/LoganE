@@ -28,19 +28,32 @@
     .project-text {
         width: 70%;
         align-self: center;
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .project-text p {
+        margin-bottom: 1.5rem;
+    }
+
+    .project-text a {
+        text-decoration: none;
+        border: 3px black #52ab98;
+        border-radius: 45%;
+        background-color: #52ab98;
+        color: white;
+        padding: .4rem;
+        cursor: pointer;
     }
 
     img {
         width: 95%;
-        height:
     }
 
     .project {
         display: flex;
         flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
+       
     }
 
     .project-items {
