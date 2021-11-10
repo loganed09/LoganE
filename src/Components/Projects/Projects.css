@@ -10,12 +10,19 @@
     }
 
     .projects h2 {
-        font-size: 2rem;
+        font-size: 2.2rem;
         margin-top: 1rem;
+        margin-bottom: 0;
+    }
+
+    .projInfo {
+        margin-top: 0;
+        font-size: .8rem;
+        margin-bottom: 2rem;
     }
 
     .project h3 {
-
+        font-size: 1.3rem;
     }
 
     .project-text {
