@@ -1,21 +1,58 @@
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
     .projects {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(15, 5rem);
+        display: flex;
+        flex-direction: column;
         margin-top: 4rem;
+        justify-content: center;
+        align-content: center;
     }
 
     .projects h2 {
-        grid-column: 1 / span 4;
-        grid-row: 1;
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+
+    .project h3 {
+
+    }
+
+    .project-text {
+        width: 70%;
+        align-self: center;
+    }
+
+    img {
+        width: 95%;
+        height:
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
     }
 
     .project-items {
-        grid-column: 1 /span 4;
-        grid-row: 2 / span 16;
+       align-self: center;
+    }
+
+    .project1 {
+        background-color: #2b6777;
+        color: white;
+    }
+
+    .project3 {
+        background-color: #2b6777;
+        color: white;
+    }
+
+    .project5 {
+        background-color: #2b6777;
+        color: white;
     }
 
 

@@ -4,7 +4,8 @@ import './About.css';
 
 export default function About() {
     let selfImage = require("../../resources/images/Me.jpg");
-    let pianoImage = require('../../resources/images/piano.jpg')
+    let nobgSelf = require("../../resources/images/me-nobg.png");
+    let pianoImage = require('../../resources/images/piano.jpg');
     return (
         // <section className="about-me">
         //     <h2>I'm Logan, and I like to code and stuff</h2>
@@ -22,7 +23,8 @@ export default function About() {
             </div>
             <div className="about-me-pics">
                <img className="meImg" src={selfImage.default} />
-            <img className="pianoImg" src={pianoImage.default} alt="piano" />
+               <img className="pianoImg" src={pianoImage.default} alt="piano" />
+               <img className="nobgSelf" src={nobgSelf.default} alt="nobgMe" />
             </div>
         </section>
     )
