@@ -1,12 +1,15 @@
 .about-me {
-    /* background-color: #29648A; */
+    /* background-color: #2b6777; */
     height: auto;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(8, 5rem);
     padding-bottom: 2rem;
+    position: relative;
+    top: 3rem;
     font-family: 'Oswald', sans-serif;
+    color: white;
 }
 
 .about-me h2 {

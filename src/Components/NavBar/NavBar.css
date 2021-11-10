@@ -1,23 +1,28 @@
 nav {
+    background-color: white;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     place-items: center;
     justify-content: space-evenly;
     z-index: 100;
-    position: sticky;
+    position: fixed;
+    top: 0;
+    padding: 1rem 0;
     /* color: #AD9728 */
 }
 
-nav h2 {
+.myName {
     font-family: 'Oswald', sans-serif;
-    color: #2E9CCA;
+    color: #2b6777;
+    font-size: 1.6rem;
+    font-weight: bold;
 }
 
 nav a {
     text-decoration: none;
     cursor: pointer;
-    color: #Def2f1;
+    color: black;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -55,10 +60,14 @@ nav a {
     }
 
     nav {
-        border-bottom: .13rem solid #2E9CCA;
+        border-bottom: .23rem solid #c8d8e4;
+        padding: .5rem 0;
+        position: fixed;
+        top:0;
+        z-index: 100;
     }
 
-    nav h2 {
+    .myName {
        display: none;
     }
     
@@ -77,7 +86,7 @@ nav a {
     
     .initials a {
         font-family: 'Oswald', sans-serif;
-        color: #2E9CCA;
+        color: #2b6777;
         font-size: 1.7rem;
         letter-spacing: .12rem;
     }
@@ -122,7 +131,7 @@ nav a {
         font-size: 2rem;
         /* background-color: #612553; */
         background-color: transparent;
-        color: #2E9CCA;
+        color: #2b6777;
         border: 0;
         cursor: pointer;
     }
