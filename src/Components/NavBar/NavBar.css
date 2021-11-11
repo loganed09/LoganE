@@ -104,10 +104,6 @@ nav a {
         font-size: 2.2rem;
     }
 
-    button {
-    }
-
-
     .dropdown-content.showMenu {
         display: flex;
         flex-direction: column;

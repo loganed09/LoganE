@@ -47,10 +47,10 @@ export default function Projects() {
                 </div>
                 <div className="project5 project">
                     <h3>Tip Calculator</h3>
-                    <a href="https://loganed09.github.io/TipCalc/"><img src={tipCalcPic.default} alt="" /></a>
+                    <a href="https://loganed09.github.io/tipCalculator/"><img src={tipCalcPic.default} alt="" /></a>
                     <div className="project-text">
                         <p>Simple tip calculator made with React and CSS.</p>
-                        <a href="https://github.com/loganed09/TipCalc">Code</a>
+                        <a href="https://github.com/loganed09/tipCalculator">Code</a>
                     </div>
                 </div>
                 <div className="project6 project">
