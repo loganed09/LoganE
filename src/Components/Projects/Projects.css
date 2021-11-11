@@ -65,7 +65,8 @@
 
     .project {
         padding-bottom: 2rem;
-        color: #2b6777
+        color: #2b6777;
+        padding-top: .5rem;
     }
 
     .project1 {

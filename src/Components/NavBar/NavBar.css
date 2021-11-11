@@ -120,6 +120,8 @@ nav {
 
     .dropdown-content a {
         padding: .2rem;
+        color: #2b6777;
+        text-decoration: none;
     }
 
     .mobile-id {
