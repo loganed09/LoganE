@@ -13,8 +13,6 @@ export default function About() {
                 <p>I play the piano. I love comic books. I am an aspiring Web Developer. Below you will find some of my projects.</p>
             </div>
             <div className="about-me-pics">
-               <img className="meImg" src={selfImage.default} />
-               <img className="pianoImg" src={pianoImage.default} alt="piano" />
                <img className="nobgSelf" src={nobgSelf.default} alt="nobgMe" />
             </div>
         </section>

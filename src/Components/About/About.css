@@ -5,8 +5,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(8, 5rem);
-    padding-bottom: 2rem;
     position: relative;
+    margin-top: 1rem;
     top: 3.8rem;
     font-family: 'Oswald', sans-serif;
     color: white;
@@ -30,14 +30,15 @@
 .about-me-pics {
     grid-column:  1 / span 2;
     /* background-color: rgba(100,100,100,.8); */
-    grid-row: 1 / span 8;
+    grid-row: 1 / 9;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    background-color: #c8d8e4;
+    align-self: center;
+    height: 100%;
 }
 
-.nobgSelf {
-    display: none;
-}
+
 
 @media only screen and (max-width: 800px) {
     .about-me {
