@@ -15,12 +15,6 @@ export default function About() {
                 </div>
                 <img className="selfImage" src={selfImage.default} alt="selfImage" />
             </div>
-            {/* <p class="bubble speech">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, nemo, debitis.</p> */}
-            
-            {/* <div className="about-me-pics">
-               <img className="nobgSelf" src={nobgSelf.default} alt="nobgMe" />
-               <img className="selfImage" src={selfImage.default} alt="selfImage" />
-            </div> */}
         </section>
         
 

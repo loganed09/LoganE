@@ -13,7 +13,7 @@ export default function NavBar() {
     <nav className="navbar">
         <a className="navItem nitem1"><Link to="projects" spy={true} smooth={true}>Projects</Link></a>
         <a className="navItem nitem2" href="https://www.linkedin.com/in/loganed09/">LinkedIn</a>
-        <a className="navItem nitem3 myName"><Link to="about" spy={true} smooth={true}>LOGAN EDWARDS</Link></a>
+        <a className="navItem nitem3" id="myName"><Link to="about" spy={true} smooth={true}>LOGAN EDWARDS</Link></a>
         <a className="navItem nitem4" href="https://github.com/loganed09">GitHub</a>
         <a className="navItem nitem5" ><Link to="contact" spy={true} smooth={true}>Contact</Link></a>
         <p className={`initials ${navbarOpen ? " hideInitials" : ""}`}>

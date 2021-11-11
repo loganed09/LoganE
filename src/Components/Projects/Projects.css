@@ -1,8 +1,19 @@
-@media only screen and (min-width: 700px) {
+.project-text a {
+    text-decoration: none;
+    border: 3px black #52ab98;
+    border-radius: 45%;
+    background-color: #52ab98;
+    color: white;
+    padding: .4rem;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 900px) {
     .projects {
         margin-top: 5rem;
         background-color: #c8d8e4;
         padding-bottom: 1rem;
+        padding-top: 1rem;
     }
 
     .projects h2 {
@@ -28,23 +39,57 @@
         width: 20rem;
     }
     
-    
-    .project-text a {
-        text-decoration: none;
-        border: 3px black #52ab98;
-        border-radius: 45%;
-        background-color: #52ab98;
-        color: white;
-        padding: .4rem;
-        cursor: pointer;
+}
+
+
+@media only screen and (max-width: 900px) and
+                       (min-width: 500px)  {
+    .projects {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
     }
-    
+
+    .project img {
+        width: 95%;
+    }
+
+    .project1 {
+        background-color: #2b6777;
+        color: white;
+    }
+
+    .project3 {
+        background-color: #2b6777;
+        color: white;
+    }
+
+    .project5 {
+        background-color: #2b6777;
+        color: white;
+    }
+
+    .projects h2 {
+        font-size: 2.2rem;
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+
+    .projInfo {
+        margin-top: 0;
+        font-size: .8rem;
+        margin-bottom: 2rem;
+    }
+
+    .project {
+        padding-bottom: 2rem;
+    }
 }
 
 
 
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     .projects {
         display: flex;
         flex-direction: column;
@@ -78,16 +123,6 @@
 
     .project-text p {
         margin-bottom: 1.5rem;
-    }
-
-    .project-text a {
-        text-decoration: none;
-        border: 3px black #52ab98;
-        border-radius: 45%;
-        background-color: #52ab98;
-        color: white;
-        padding: .4rem;
-        cursor: pointer;
     }
 
     img {
