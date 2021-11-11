@@ -114,9 +114,9 @@
         grid-column: 5 / 10;
         grid-row: 1 / 5;
         padding-bottom: 3rem;
-        padding-right: 2rem;
-        padding-left: 2rem;
-        width: 90%;
+        padding-right: 1.3rem;
+        padding-left: 1.3rem;
+        width: 85%;
     }
 
     h2 {
