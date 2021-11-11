@@ -30,11 +30,11 @@
 	text-align: center;
 	line-height: 1.4em;
 	margin: 0;
-	background-color: #52ab98;
-	border: 8px solid #333;
+	background-color: #c8d8e4;
+	border: 8px solid #2b6777;
 	border-radius: 30px;
-	
-	color: black;
+
+	color: #2b6777
 }
 
 .about-text h2 {
@@ -57,14 +57,14 @@
 	left: 30px;
 	bottom: -50px;
 	border: 25px solid;
-	border-color: #333 transparent transparent #333;
+	border-color: #2b6777 transparent transparent #2b6777;
 }
 
 .about-text:after {
 	left: 38px;
 	bottom: -30px;
 	border: 15px solid;
-	border-color: #52ab98 transparent transparent #52ab98;
+	border-color: #c8d8e4 transparent transparent #c8d8e4;
 }
 
 
