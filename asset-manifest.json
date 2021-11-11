@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/LoganE/static/css/main.5f398070.chunk.css",
-    "main.js": "/LoganE/static/js/main.87255c0e.chunk.js",
-    "main.js.map": "/LoganE/static/js/main.87255c0e.chunk.js.map",
+    "main.js": "/LoganE/static/js/main.f0cc58b0.chunk.js",
+    "main.js.map": "/LoganE/static/js/main.f0cc58b0.chunk.js.map",
     "runtime-main.js": "/LoganE/static/js/runtime-main.f1882abc.js",
     "runtime-main.js.map": "/LoganE/static/js/runtime-main.f1882abc.js.map",
     "static/js/2.721fcbf3.chunk.js": "/LoganE/static/js/2.721fcbf3.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.f1882abc.js",
     "static/js/2.721fcbf3.chunk.js",
     "static/css/main.5f398070.chunk.css",
-    "static/js/main.87255c0e.chunk.js"
+    "static/js/main.f0cc58b0.chunk.js"
   ]
 }
