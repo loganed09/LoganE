@@ -1,6 +1,8 @@
 @media only screen and (min-width: 700px) {
     .projects {
         margin-top: 5rem;
+        background-color: #c8d8e4;
+        padding-bottom: 1rem;
     }
 
     .projects h2 {
