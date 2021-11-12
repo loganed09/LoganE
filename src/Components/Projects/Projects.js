@@ -11,7 +11,7 @@ export default function Projects() {
     return (
         <section className="projects" id="projects">
             <h2>Projects</h2>
-            <p className="projInfo">Click on picture to go to view project.</p>
+            <p className="projInfo">Click on picture to view project.<br/>To access source code, click on "Code".</p>
             <div className="project-items">
                 <div className="project1 project">
                     <h3>This Project</h3>
