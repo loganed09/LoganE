@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/LoganE/static/css/main.46f274a7.chunk.css",
-    "main.js": "/LoganE/static/js/main.656b70c4.chunk.js",
-    "main.js.map": "/LoganE/static/js/main.656b70c4.chunk.js.map",
-    "runtime-main.js": "/LoganE/static/js/runtime-main.a0035fc0.js",
-    "runtime-main.js.map": "/LoganE/static/js/runtime-main.a0035fc0.js.map",
+    "main.css": "/LoganE/static/css/main.b464a633.chunk.css",
+    "main.js": "/LoganE/static/js/main.85bd7405.chunk.js",
+    "main.js.map": "/LoganE/static/js/main.85bd7405.chunk.js.map",
+    "runtime-main.js": "/LoganE/static/js/runtime-main.f1882abc.js",
+    "runtime-main.js.map": "/LoganE/static/js/runtime-main.f1882abc.js.map",
     "static/js/2.af020076.chunk.js": "/LoganE/static/js/2.af020076.chunk.js",
     "static/js/2.af020076.chunk.js.map": "/LoganE/static/js/2.af020076.chunk.js.map",
-    "static/js/3.dcf9d6e7.chunk.js": "/LoganE/static/js/3.dcf9d6e7.chunk.js",
-    "static/js/3.dcf9d6e7.chunk.js.map": "/LoganE/static/js/3.dcf9d6e7.chunk.js.map",
+    "static/js/3.02eb7b36.chunk.js": "/LoganE/static/js/3.02eb7b36.chunk.js",
+    "static/js/3.02eb7b36.chunk.js.map": "/LoganE/static/js/3.02eb7b36.chunk.js.map",
     "index.html": "/LoganE/index.html",
-    "static/css/main.46f274a7.chunk.css.map": "/LoganE/static/css/main.46f274a7.chunk.css.map",
+    "static/css/main.b464a633.chunk.css.map": "/LoganE/static/css/main.b464a633.chunk.css.map",
     "static/js/2.af020076.chunk.js.LICENSE.txt": "/LoganE/static/js/2.af020076.chunk.js.LICENSE.txt",
     "static/media/ExcursionPic.PNG": "/LoganE/static/media/ExcursionPic.35f117be.PNG",
     "static/media/Me.jpg": "/LoganE/static/media/Me.7ae85b52.jpg",
     "static/media/StopWatchPic.PNG": "/LoganE/static/media/StopWatchPic.761ccf1a.PNG",
     "static/media/TicTacToePic.PNG": "/LoganE/static/media/TicTacToePic.44173baf.PNG",
     "static/media/TipCalcPic.PNG": "/LoganE/static/media/TipCalcPic.c18aa882.PNG",
+    "static/media/jamming.PNG": "/LoganE/static/media/jamming.5198820b.PNG",
     "static/media/plannerPic.PNG": "/LoganE/static/media/plannerPic.c36d292a.PNG",
-    "static/media/portfolioProjectPic.PNG": "/LoganE/static/media/portfolioProjectPic.73491f1b.PNG"
+    "static/media/portfolioProjectPic.PNG": "/LoganE/static/media/portfolioProjectPic.73491f1b.PNG",
+    "static/media/ravenous.PNG": "/LoganE/static/media/ravenous.cfd62bc0.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.a0035fc0.js",
+    "static/js/runtime-main.f1882abc.js",
     "static/js/2.af020076.chunk.js",
-    "static/css/main.46f274a7.chunk.css",
-    "static/js/main.656b70c4.chunk.js"
+    "static/css/main.b464a633.chunk.css",
+    "static/js/main.85bd7405.chunk.js"
   ]
 }
