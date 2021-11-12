@@ -1,31 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f285d38.chunk.css",
-    "main.js": "/static/js/main.f0cc58b0.chunk.js",
-    "main.js.map": "/static/js/main.f0cc58b0.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7c738ea5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7c738ea5.js.map",
-    "static/js/2.721fcbf3.chunk.js": "/static/js/2.721fcbf3.chunk.js",
-    "static/js/2.721fcbf3.chunk.js.map": "/static/js/2.721fcbf3.chunk.js.map",
-    "static/js/3.02eb7b36.chunk.js": "/static/js/3.02eb7b36.chunk.js",
-    "static/js/3.02eb7b36.chunk.js.map": "/static/js/3.02eb7b36.chunk.js.map",
+    "main.css": "/static/css/main.c53c0d7c.chunk.css",
+    "main.js": "/static/js/main.014e15fc.chunk.js",
+    "main.js.map": "/static/js/main.014e15fc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e937ac56.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e937ac56.js.map",
+    "static/js/2.af020076.chunk.js": "/static/js/2.af020076.chunk.js",
+    "static/js/2.af020076.chunk.js.map": "/static/js/2.af020076.chunk.js.map",
+    "static/js/3.dcf9d6e7.chunk.js": "/static/js/3.dcf9d6e7.chunk.js",
+    "static/js/3.dcf9d6e7.chunk.js.map": "/static/js/3.dcf9d6e7.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.9f285d38.chunk.css.map": "/static/css/main.9f285d38.chunk.css.map",
-    "static/js/2.721fcbf3.chunk.js.LICENSE.txt": "/static/js/2.721fcbf3.chunk.js.LICENSE.txt",
+    "static/css/main.c53c0d7c.chunk.css.map": "/static/css/main.c53c0d7c.chunk.css.map",
+    "static/js/2.af020076.chunk.js.LICENSE.txt": "/static/js/2.af020076.chunk.js.LICENSE.txt",
     "static/media/ExcursionPic.PNG": "/static/media/ExcursionPic.35f117be.PNG",
     "static/media/Me.jpg": "/static/media/Me.7ae85b52.jpg",
     "static/media/StopWatchPic.PNG": "/static/media/StopWatchPic.761ccf1a.PNG",
     "static/media/TicTacToePic.PNG": "/static/media/TicTacToePic.44173baf.PNG",
     "static/media/TipCalcPic.PNG": "/static/media/TipCalcPic.c18aa882.PNG",
-    "static/media/me-nobg.png": "/static/media/me-nobg.bc2400b7.png",
-    "static/media/piano.jpg": "/static/media/piano.41f572d0.jpg",
     "static/media/plannerPic.PNG": "/static/media/plannerPic.c36d292a.PNG",
     "static/media/portfolioProjectPic.PNG": "/static/media/portfolioProjectPic.73491f1b.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.7c738ea5.js",
-    "static/js/2.721fcbf3.chunk.js",
-    "static/css/main.9f285d38.chunk.css",
-    "static/js/main.f0cc58b0.chunk.js"
+    "static/js/runtime-main.e937ac56.js",
+    "static/js/2.af020076.chunk.js",
+    "static/css/main.c53c0d7c.chunk.css",
+    "static/js/main.014e15fc.chunk.js"
   ]
 }
