@@ -20,6 +20,10 @@
     color: #2b6777;
 }
 
+.project a{
+    margin: auto;
+}
+
 @media only screen and (min-width: 900px) {
     .projects {
         margin-top: 5rem;
