@@ -72,7 +72,7 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="project8 project">
-                    <h3>React Planner</h3>
+                    <h3>Ravenous</h3>
                     <a href="https://loganed09.github.io/ravenous/"><img src={ravPic.default} alt="" /></a>
                     <div className="project-text">
                         <p>React application made with Hooks and React Functions. This project uses the Yelp API to search for food by name and location. Also, has the ability to sort the results.</p>
