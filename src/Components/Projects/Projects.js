@@ -16,10 +16,10 @@ export default function Projects() {
             <p className="projInfo">Click on project picture to view project.<br/>To access source code, click on "Code".</p>
             <div className="project-items">
                 <div className="project1 project">
-                    <h3>This Project</h3>
+                    <h3>This Portfolio Project</h3>
                     <img src="" alt="" />
                     <div className="project-text">
-                        <p>This portfolio project was created using React and CSS.</p>
+                        <p>This portfolio project was created using React and CSS. Hosted on AWS S3, secured through Cloudfront.</p>
                         <a href="https://github.com/loganed09/LoganE">Code</a>
                     </div>
                 </div>
